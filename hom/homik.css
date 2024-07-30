@@ -1,0 +1,344 @@
+.background {
+    width: 430px;
+    height: 1354px;
+    background: #1a1a1a;
+    margin: 0;
+    position: relative;
+}
+
+.ava_pic {
+    position: absolute;
+    top: 52px;
+    left: 23px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.Hello {
+    position: absolute;
+    top: 63px;
+    left: 77px;
+    width: 87px;
+    height: 18px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.btn {
+    background: #1a1a1a;
+    border: 0.33px solid #ffffff;
+    border-radius: 100px;
+    padding-right: 18px;
+    padding-left: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.for_btns {
+    position: relative;
+    top: 114px;
+    width: 370px;
+    left: 23px;
+}
+
+.uiux {
+    position: absolute;
+    top: 220px;
+    left: 23px;
+    width: 61px;
+    height: 21px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 21px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.image-gallery {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    position: relative;
+    top: 180px;
+    left: 23px;
+    width: calc(100% - 46px);
+}
+
+.image-container {
+    width: 230px; /* Фиксированная ширина */
+    height: 170px; /* Фиксированная высота */
+    margin-right: 10px;
+    overflow: hidden;
+    border-radius: 15px;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.image-container button {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.image-gallery::-webkit-scrollbar {
+    display: none; /* Для WebKit-браузеров (Chrome, Safari) */
+}
+
+.ill {
+    position: absolute;
+    top: 450px;
+    left: 23px;
+    width: 61px;
+    height: 21px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 21px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.image-gallery1 {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    position: relative;
+    top: 240px;
+    left: 23px;
+    width: calc(100% - 46px);
+}
+
+.image-container1 {
+    width: 230px; /* Фиксированная ширина */
+    height: 170px; /* Фиксированная высота */
+    margin-right: 10px;
+    overflow: hidden;
+    border-radius: 15px;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.image-container1 button {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.image-container1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.image-gallery1::-webkit-scrollbar {
+    display: none; /* Для WebKit-браузеров (Chrome, Safari) */
+}
+
+.graph {
+    position: absolute;
+    top: 680px;
+    left: 23px;
+    width: 185px;
+    height: 21px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 21px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.image-gallery2 {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    position: relative;
+    top: 300px;
+    left: 23px;
+    width: calc(100% - 46px);
+}
+
+.image-container2 {
+    width: 230px; /* Фиксированная ширина */
+    height: 170px; /* Фиксированная высота */
+    margin-right: 10px;
+    overflow: hidden;
+    border-radius: 15px;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.image-container2 button {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.image-container2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.image-gallery2::-webkit-scrollbar {
+    display: none; /* Для WebKit-браузеров (Chrome, Safari) */
+}
+
+.line {
+    position: absolute;
+    top: 910px;
+    left: 21px;
+    height: 1px;
+    width: 398px;
+    background-color: #ffffff;
+}
+
+.other_btns {
+    width: 400px;
+    position: relative;
+    top: 340px;
+    left: 20px;
+}
+
+.text_info {
+    position: absolute;
+    width: 250px;
+    height: 23px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: left;
+    color: #ffffff;
+    top: 10px;
+    left: 70px;
+}
+
+.btn-container {
+    position: relative;
+    height: 40px;
+    width: 400px;
+    background: #1a1a1a;
+    border: #1a1a1a;
+}
+
+.img {
+    position: absolute;
+    left: 0px;
+    top: 8px;
+    width: 25px;
+    height: 25px;
+}
+
+.img-right {
+    position: absolute;
+    left: 370px;
+    top: 10.3px;
+    width: 20px;
+    height: 20px;
+}
+
+.gray_line {
+    position: absolute;
+    top: 38px;
+    left: 40px;
+    width: 323px;
+    height: 0.1px;
+    background-color: gray;
+}
+
+.bottom_btns {
+    position: fixed;
+    bottom: 20px;
+    left: 15px;
+    width: 395px;
+    height: 68px;
+    background: #2e2e2e;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-between; /* Распределяет кнопки с равными промежутками */
+    padding-left: 35px; /* Добавляем отступы для кнопок */
+    padding-right: 35px; /* Добавляем отступы для кнопок */
+    box-sizing: border-box;
+}
+
+.nav_btn {
+    height: 50px;
+    width: 80px;
+    position: relative;
+    background: #2e2e2e;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    top: 9px;
+}
+
+.nav_img {
+    height: 30px;
+    width: 30px;
+}
+
+.nav_text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+#gray {
+    color: gray;
+}
+
+#white {
+    color: white;
+}

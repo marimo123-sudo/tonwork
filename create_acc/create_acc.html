@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Create Profile</title>
+        <link rel="stylesheet" href="create_acc.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="c_y_p">
+            <div class="text">Create Profile</div>
+            <!-- Добавляем блок для отображения сообщений об ошибках -->
+            <!-- <div class="error_messag" name="error_message">Такое Имя уже используется</div> -->
+            <form action="register.php" method="post">
+                <input type="text" class="Name_input" name="username" placeholder="Name">
+                <input type="email" class="E-mail_input" name="email" placeholder="E-mail">
+                <button type="submit" name="button" class="create_profile">Create Profile</button>
+            </form>
+            <div class="for_buttons">
+                <div class="role_text" id="buyer_text">Buyer</div>
+                <div class="role_text" id="freelancer_text">Freelancer</div>
+                <div class="blue_rec blue"></div>
+                <button class="role" onclick="moveObject()"></button>
+            </div>
+            <div class="about_you_text">
+                <textarea id="about_what_id_1" placeholder="About you" class="about_what" maxlength="250" required></textarea>
+                <div class="example" id="output">Example: Hello, I am an experienced programmer, I work with such languages ​​(Python, Java) Max. 250 characters (text)</div>
+            </div>
+        </div>
+        <script src="create_acc.js"></script>
+    </body>
+</html>

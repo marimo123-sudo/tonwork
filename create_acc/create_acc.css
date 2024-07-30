@@ -1,0 +1,271 @@
+/* html {
+  transform: scale(1.2);
+  transform-origin: top left;
+} */
+
+
+.c_y_p {
+  width: 393px;
+  height: 852px;
+  background: #f1f0f6;
+  position: relative;
+}
+
+body {
+  user-select: none;
+  margin-top: 0;
+  margin-left: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.Name_input, .E-mail_input {
+  position: absolute;
+  width: 310px;
+  height: 10px;
+  background: #ffffff;
+  border-radius: 8px;
+  left: 22px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 10px;
+  transition: border-color 0.3s ease; /* Плавный переход цвета */
+}
+
+.Name_input, .E-mail_input, .about_what {
+  border: 1px solid #1c1c1c;
+}
+
+.Name_input {
+  top: 91px;
+}
+
+.E-mail_input {
+  top: 138px;
+}
+
+.Name_input::placeholder, .E-mail_input::placeholder {
+  font-size: 16px;
+  color: #757575;
+  font-family: Inter;
+  font-weight: 400;
+  
+}
+
+.about_what:focus, .Name_input:focus, .E-mail_input:focus{
+  border-color: #2781c5;
+  outline: none; /* Убираем стандартное выделение */
+}
+
+.about_what:hover, .Name_input:hover, .E-mail_input:hover {
+  border-color: #2781c5;
+}
+
+.text {
+  position: absolute;
+  top: 48px;
+  left: 22px;
+  width: 148px;
+  height: 18px;
+  font-family: Inter;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1;
+  color: #000000;
+}
+
+.for_buttons {
+  position: absolute;
+  width: 330px;
+  height: 40px;
+  top: 198px;
+  left: 22px;
+  background-color: white;
+  border-radius: 8px;
+  z-index: 0;
+}
+
+.role_text {
+  position: absolute;
+  top: 10px; /* Регулируйте это значение для центрирования по вертикали */
+  width: 175px;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 15px;
+  transition: color 0.5s;
+}
+
+#buyer_text {
+  left: 0;
+  width: 165px;
+  color: white;
+  text-align: center;
+  z-index: 2;
+}
+
+#freelancer_text {
+  left: 165px;
+  color: #797979;
+  z-index: 2;
+}
+
+.blue_rec {
+  position: absolute;
+  border: none;
+  border-radius: 8px;
+  left: 0;
+  background-color: rgb(91, 150, 231);
+  width: 165px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  font-weight: 400;
+  z-index: 1;
+  transition: left 0.5s;
+}
+
+.role {
+  position: absolute;
+  width: 350px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 4;
+}
+
+.about_you_text {
+  left: 22px;
+  top: 267px;
+  position: relative;
+  display: flex;
+  opacity: 0;
+  transition: opacity 0.5s, visibility 0s 0.5s;
+  pointer-events: none; /* Disable interaction by default */
+  visibility: hidden; /* Hide by default */
+}
+
+.about_you_text.fade-in {
+  animation: fadeIn 0.5s forwards;
+  pointer-events: auto; /* Enable interaction */
+  visibility: visible; /* Make visible */
+  transition: opacity 0.5s, visibility 0s 0s;
+}
+
+.about_you_text.fade-out {
+  animation: fadeOut 0.5s forwards;
+  pointer-events: none; /* Disable interaction */
+  visibility: hidden; /* Hide after fading out */
+  transition: opacity 0.5s, visibility 0s 0.5s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0;}
+  to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+.about_what {
+  position: absolute;
+  width: 310px;
+  height: 15px; /* Минимальная высота textarea */
+  font-size: 12px;
+  font-family: Inter;
+  font-weight: 300;
+  border-radius: 8px;
+  padding: 10px;
+  transition: border-color 0.3s ease; /* Плавный переход цвета */
+  resize: none; /* Отключаем возможность изменения размера пользователем */
+  field-sizing: content;
+}
+
+#about_what_id_2 {
+  field-sizing: fixed;
+}
+
+.about_what::-webkit-scrollbar {
+  width: 0px;
+}
+
+.example {
+  position: absolute;
+  width: 350px;
+  height: 53px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 27px;
+  text-align: left;
+  color: #000000;
+  top: 45px;
+}
+
+#output {
+  padding: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.create_profile {
+  width: 350px;
+  height: 45px;
+  position: absolute;
+  padding: 12px 12px;
+  background: #000000;
+  border: none;
+  border-radius: 8px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  text-align: center;
+  color: #ffffff;
+  top: 784px;
+  left: 21px;
+  cursor: pointer;
+}
+
+
+.about_what:placeholder {
+  color: #1c1c1c;
+}
+
+.error_messag {
+  top: 250px;
+  color: red;
+}
+
+
+.dark-mode .text, .dark-mode .about_what, .example {
+  color: white;
+}
+
+.dark-mode .c_y_p {
+  background-color: #000000;
+}
+
+.dark-mode .Name_input, .dark-mode .E-mail_input, .dark-mode .about_what {
+  background-color: #1c1c1c;
+  color: white;
+}
+
+.dark-mode .for_buttons {
+  background-color: #1c1c1c;;
+}
+
+.dark-mode .create_profile {
+  background-color: white;
+  color: #000000;
+}
+

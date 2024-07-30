@@ -1,0 +1,112 @@
+.background {
+    width: 430px;
+    height: 932px;
+    background: #1a1a1a;
+    position: relative;
+}
+
+.ill_btn {
+    position: relative;
+    width: 193px;
+    height: 21px;
+    background: transparent;
+    border: #1a1a1a;
+    top: 46px;
+    left: 17px;
+}
+
+.ill_img {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    transform: scaleX(-1);
+    left: 0px;
+    top: 0px;
+
+}
+
+.ill_text {
+    color: white;
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    width: 163px;
+    height: 21px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 21px;
+    text-align: left;
+}
+
+.for_pics {
+    position: relative;
+}
+
+.first_col {
+    position: absolute;
+    height: 800px;
+    width: 195px;
+    left: 17px;
+    top: 98px;
+}
+
+.second_col {
+    position: absolute;
+    height: 800px;
+    width: 195px;
+    left: 217px;
+    top: 98px;
+}
+
+.bottom_btns {
+    position: fixed;
+    bottom: 20px;
+    left: 15px;
+    width: 395px;
+    height: 68px;
+    background: #2e2e2e;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-between; /* Распределяет кнопки с равными промежутками */
+    padding-left: 35px; /* Добавляем отступы для кнопок */
+    padding-right: 35px; /* Добавляем отступы для кнопок */
+    box-sizing: border-box;
+}
+
+.nav_btn {
+    height: 50px;
+    width: 80px;
+    position: relative;
+    background: #2e2e2e;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    top: 9px;
+}
+
+.nav_img {
+    height: 30px;
+    width: 30px;
+}
+
+.nav_text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+#gray {
+    color: gray;
+}
+
+#white {
+    color: white;
+}
